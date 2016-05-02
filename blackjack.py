@@ -237,7 +237,7 @@ def menu(event=None):
     window.create_text(110,420,text="BLACKJACK",fill="white",font=("Arial",22))
     window.create_text(325,440,text="Name:",fill="white")
     window.create_text(420,418,text="WELCOME",fill="white",font=("Arial",13))
-    window.create_text(110,450,text="Press R for Rules",fill="orange",font=("Arial",14))
+    window.create_text(110,450,text="Press Shift-R for Rules",fill="orange",font=("Arial",14))
 ##    window.create_text(423,80,text="Change Background",fill="white",font=("Arial",12))
     start_button.place(x=1000,y=1000)
     exit_button.place(x=1000,y=1000)
